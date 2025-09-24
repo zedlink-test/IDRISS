@@ -50,7 +50,7 @@ const BookingForm = () => {
     form.append('wilaya', formData.wilaya);
 
     try {
-      const response = await fetch('https://formspree.io/f/YOUR_FORMSPREE_ID', {
+      const response = await fetch('https://formspree.io/f/xvgwgzzk', {
         method: 'POST',
         body: form,
         headers: { 'Accept': 'application/json' }
